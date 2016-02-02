@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="281.0" prefWidth="360.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <Label layoutX="43.0" layoutY="98.0" text="Login ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="139.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login" layoutX="167.0" layoutY="99.0" promptText="username" />
+      <PasswordField fx:id="password" layoutX="167.0" layoutY="140.0" promptText="password" />
+      <Label layoutX="109.0" layoutY="14.0" text="Welcome" textFill="DODGERBLUE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginBtn" layoutX="83.0" layoutY="221.0" mnemonicParsing="false" onAction="#login" prefWidth="100.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="registerBtn" layoutX="199.0" layoutY="221.0" mnemonicParsing="false" onAction="#switchToRegister" prefWidth="100.0" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Separator layoutY="66.0" prefHeight="3.0" prefWidth="360.0" style="-fx-border-style: solid; -fx-border-width: 0; -fx-background-color: #1E90FF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="66.0" />
+      <Separator layoutY="191.0" prefHeight="3.0" prefWidth="360.0" style="-fx-border-style: solid; -fx-border-width: 0; -fx-background-color: #1E90FF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="191.0" />
+   </children>
+</AnchorPane>
