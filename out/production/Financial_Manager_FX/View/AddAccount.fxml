@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="Controller.AddAccountController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="252.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="108.0" layoutY="14.0" text="Account info" />
+      <Separator layoutY="51.0" prefHeight="0.0" prefWidth="284.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="51.0" />
+      <Label layoutX="28.0" layoutY="79.0" text="Description" />
+      <Label layoutX="28.0" layoutY="127.0" text="Ballacne" />
+      <TextField fx:id="accDescription" layoutX="115.0" layoutY="75.0" />
+      <TextField fx:id="addAccBallance" layoutX="115.0" layoutY="123.0" />
+      <Button layoutX="54.0" layoutY="196.0" mnemonicParsing="false" prefWidth="70.0" text="Cancel" />
+      <Button fx:id="addAccountBtn" layoutX="155.0" layoutY="196.0" mnemonicParsing="false"  prefWidth="70.0" text="Add" />
+      <Separator layoutX="2.0" layoutY="169.0" prefHeight="3.0" prefWidth="284.0" />
+   </children>
+</AnchorPane>
